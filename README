@@ -1,0 +1,29 @@
+/*
+ # Made by:
+ # Gustavo Magallanes-Guijón <gustavo.magallanes.guijon@ciencias.unam.mx>
+ # Instituto de Astronomia UNAM
+ # Ciudad Universitaria
+ # Ciudad de Mexico
+ # Mexico
+ # mar dic 22 22:43:09 CST 2020
+*/
+
+This software computing friedman equations. This is a first version and
+works with a standard parameters. It is a C languaje programming.
+
+The initial condition is: a(13) = 1
+
+And constants values are:
+
+H = 0.07154245;(H en Gyrs)
+Or = 8.2e-5;
+Om = 0.25;
+Ol = 0.75;
+Ok = 1 - (0.25 + 8.4e-5 +0.75);
+
+You can change this values!
+
+Compilling in Debian GNU/Linux operating system:
+gcc -o  friedman friedman.c -lm 
+
+
